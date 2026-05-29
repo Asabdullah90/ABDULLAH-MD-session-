@@ -31,7 +31,7 @@ async function generateShortSession(credsPath) {
         // Generate session ID with prefix
         const y = new Date().getFullYear();
         const r = Math.random().toString(36).substring(2, 6).toUpperCase();
-        const sessionId = `KIRA-MD~`;
+        const sessionId = `ABDULLAH-MD~`;
         
         // Return both session ID and encoded data
         return {
@@ -134,7 +134,7 @@ END:VCARD`
 
 // ---- Caption (alive.js style bot details) ----
 const caption = `
-╭━〔 *ᴀʀꜱʟᴀɴ-xᴍᴅ* 〕━··๏
+╭━〔 *ᴀʙᴅᴜʟᴀʜ-xᴍᴅ* 〕━··๏
 ┃★╭──────────────
 ┃★│ 👑 Owner : *AbdullahMD Official*
 ┃★│ 🤖 Baileys : *Multi Device*
@@ -150,7 +150,7 @@ const caption = `
 await sock.sendMessage(
   jid,
   {
-    image: { url: "https://files.catbox.moe/16i1l7.jpg" },
+    image: { url: "https://ibb.co/yBFzd53M" },
     caption,
     contextInfo: {
       mentionedJid: [jid],
